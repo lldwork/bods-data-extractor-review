@@ -26,7 +26,7 @@ try:
 # LLD catch as ModuleNotFoundError - no bare exceptions please
 except:
     import otc_db_download
-import datetime
+from datetime import date
 from collections import Counter
 import importlib.resources
 
